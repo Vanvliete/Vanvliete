@@ -14,3 +14,17 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+class ErikVanVliet 
+{
+public:
+
+    void showResume();
+    string getPhoneNumber() const {return phoneNumber;}
+    string getEmailAddress() const {return emailAddress;}
+
+private:
+
+    string phoneNumber;
+    string emailAddress;
+
+}
